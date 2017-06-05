@@ -1,0 +1,163 @@
+/*===========Шапка сайта====================*/
+.title
+{
+    font-family: Oswald;
+    font-size: 18px;
+}
+    span
+    {
+        color: white;
+        background-color: #0096d6;
+    }
+.search_tbox
+{
+    margin-top: 20px;
+}
+.search_bt
+{
+    color: blueviolet;
+}
+.search_bt .pic
+{
+    margin-top: 27px;
+    height: 20px;
+    width: 20px;
+}
+.time-date
+{
+    font-family: Oswald;
+    font-size: 22px;
+    text-align: right;
+}
+.time-date #timedate
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+input.text
+{
+    width: 100%;
+    padding: 5px 10px;
+    font-family: Oswald Light;
+}
+
+/*===========Шапка сайта====================*/
+
+
+/*/===========Навигация по сайту============*/
+nav
+{
+    background-color: #393a3d;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+ul.list-inline a
+    {
+        background-color: #393a3d;
+        display: inline-block;
+        font-family: Oswald;
+        text-transform: uppercase;
+        padding: 15px 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+ul.list-inline
+    {
+        margin-bottom: 0;
+    }
+ul.list-inline a:hover, a:focus, a:active /*Наведение на кнопку навигации*/
+{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #db0048;
+        
+      -webkit-transition: all 0.5s ease;;
+      -moz-transition: all 0.5s ease;;
+      -o-transition: all 0.5s ease;;
+      transition: all 0.5s ease;
+}
+
+#lang
+{
+    float: right;
+}
+/*===========Навигация по сайту============*/
+
+/*===========Главная страница*==============*/
+.cities_block
+    {
+        background-color: #393a3d;
+        margin-top: 15px;
+    }
+.cities_block #citieslist_title
+{
+    font-family: Oswald;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+}
+
+.cities_list
+{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Oswald;
+}
+
+.cities_list li
+{
+    color: white;
+    margin-right: 100px;
+}
+
+.cities_list li:hover 
+{
+    text-decoration: none;
+    padding-left: 10px;
+    -webkit-transition: all 0.5s ease;;
+    -moz-transition: all 0.5s ease;;
+    -o-transition: all 0.5s ease;;
+    transition: all 0.5s ease;
+}
+
+.weather
+{
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+    margin-top: 15px;
+}
+.map
+{
+    height: 250px;
+    width: 100%;
+    background-color: chocolate;
+    margin-top: 15px;
+}
+
+footer
+{
+    background-color: #393a3d;
+    height: 52px;
+    width: 100%;
+    margin-top: 202px;
+}
+/*===========Главная страница*==============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
