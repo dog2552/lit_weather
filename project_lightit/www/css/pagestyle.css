@@ -15,13 +15,23 @@
 }
 .search_bt
 {
-    color: blueviolet;
+    margin-top: 20px;
+    height: 34px;
+    width: 100%;
+    font-family: Oswald;
+    background-color: #393a3d;
+    border: none;
+    color: white;
 }
-.search_bt .pic
+.search_bt:hover
 {
-    margin-top: 27px;
-    height: 20px;
-    width: 20px;
+    background-color: cadetblue;
+    color: white;
+    
+    -webkit-transition: all 0.5s ease;;
+      -moz-transition: all 0.5s ease;;
+      -o-transition: all 0.5s ease;;
+      transition: all 0.5s ease;
 }
 .time-date
 {
@@ -42,7 +52,14 @@ input.text
     font-family: Oswald Light;
 }
 
+#timedate
+{
+    font-family: Oswald Light;
+}
+
 /*===========Шапка сайта====================*/
+
+
 
 
 /*/===========Навигация по сайту============*/
@@ -85,54 +102,22 @@ ul.list-inline a:hover, a:focus, a:active /*Наведение на кнопку
 }
 /*===========Навигация по сайту============*/
 
-/*===========Главная страница*==============*/
-.cities_block
-    {
-        background-color: #393a3d;
-        margin-top: 15px;
-    }
-.cities_block #citieslist_title
-{
-    font-family: Oswald;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 10px;
-    color: white;
-}
 
-.cities_list
-{
-    list-style: none;
-    text-transform: uppercase;
-    font-family: Oswald;
-}
 
-.cities_list li
-{
-    color: white;
-    margin-right: 100px;
-}
 
-.cities_list li:hover 
-{
-    text-decoration: none;
-    padding-left: 10px;
-    -webkit-transition: all 0.5s ease;;
-    -moz-transition: all 0.5s ease;;
-    -o-transition: all 0.5s ease;;
-    transition: all 0.5s ease;
-}
 
+
+/*===========Главная страница MAIN.html*==============*/
 .weather
 {
-    height: 100px;
+    height: 120px;
     width: 100%;
-    background-color: cadetblue;
+    border: 1px solid black;
     margin-top: 15px;
 }
 .map
 {
-    height: 250px;
+    height: 350px;
     width: 100%;
     background-color: chocolate;
     margin-top: 15px;
@@ -145,12 +130,26 @@ footer
     width: 100%;
     margin-top: 202px;
 }
-/*===========Главная страница*==============*/
+footer h4
+{
+    color: aliceblue;
+}
+/*===========Главная страница MAIN.html*==============*/
 
 
 
 
+/*===========Блок для теста вывода погоды==============*/
+/*
+.wblock
+{
+    width: 145px;
+    border: 1px solid black;
+    height: 120px;
+}
+*/
 
+/*===========Блок для теста вывода погоды==============*/
 
 
 
