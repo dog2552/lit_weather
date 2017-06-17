@@ -1,0 +1,1874 @@
+Array
+(
+    [cod] =&gt; 200
+    [message] =&gt; 0.0042
+    [cnt] =&gt; 40
+    [list] =&gt; 
+	Array
+        (
+            [0] =&gt; 
+			Array
+                (
+                    [dt] =&gt; 1497387600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 292.34
+                            [temp_min] =&gt; 292.34
+                            [temp_max] =&gt; 293.426
+                            [pressure] =&gt; 1024.77
+                            [sea_level] =&gt; 1032.31
+                            [grnd_level] =&gt; 1024.77
+                            [humidity] =&gt; 52
+                            [temp_kf] =&gt; -1.08
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 804
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; overcast clouds
+                                    [icon] =&gt; 04n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 100
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.26
+                            [deg] =&gt; 163.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-13 21:00:00
+                )
+
+            [1] =&gt; Array
+                (
+                    [dt] =&gt; 1497398400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 290.24
+                            [temp_min] =&gt; 290.24
+                            [temp_max] =&gt; 291.048
+                            [pressure] =&gt; 1024.72
+                            [sea_level] =&gt; 1032.28
+                            [grnd_level] =&gt; 1024.72
+                            [humidity] =&gt; 59
+                            [temp_kf] =&gt; -0.81
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.31
+                            [deg] =&gt; 186.004
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 00:00:00
+                )
+
+            [2] =&gt; Array
+                (
+                    [dt] =&gt; 1497409200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 286.48
+                            [temp_min] =&gt; 286.48
+                            [temp_max] =&gt; 287.017
+                            [pressure] =&gt; 1024.92
+                            [sea_level] =&gt; 1032.52
+                            [grnd_level] =&gt; 1024.92
+                            [humidity] =&gt; 73
+                            [temp_kf] =&gt; -0.54
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.62
+                            [deg] =&gt; 153
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 03:00:00
+                )
+
+            [3] =&gt; Array
+                (
+                    [dt] =&gt; 1497420000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 289
+                            [temp_min] =&gt; 289
+                            [temp_max] =&gt; 289.273
+                            [pressure] =&gt; 1024.62
+                            [sea_level] =&gt; 1032.18
+                            [grnd_level] =&gt; 1024.62
+                            [humidity] =&gt; 60
+                            [temp_kf] =&gt; -0.27
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.73
+                            [deg] =&gt; 127.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 06:00:00
+                )
+
+            [4] =&gt; Array
+                (
+                    [dt] =&gt; 1497430800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 294.732
+                            [temp_min] =&gt; 294.732
+                            [temp_max] =&gt; 294.732
+                            [pressure] =&gt; 1024.45
+                            [sea_level] =&gt; 1031.92
+                            [grnd_level] =&gt; 1024.45
+                            [humidity] =&gt; 57
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.06
+                            [deg] =&gt; 152.5
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 09:00:00
+                )
+
+            [5] =&gt; Array
+                (
+                    [dt] =&gt; 1497441600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 297.723
+                            [temp_min] =&gt; 297.723
+                            [temp_max] =&gt; 297.723
+                            [pressure] =&gt; 1023.48
+                            [sea_level] =&gt; 1031.05
+                            [grnd_level] =&gt; 1023.48
+                            [humidity] =&gt; 51
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 02d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 8
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.76
+                            [deg] =&gt; 185
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 12:00:00
+                )
+
+            [6] =&gt; Array
+                (
+                    [dt] =&gt; 1497452400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 298.683
+                            [temp_min] =&gt; 298.683
+                            [temp_max] =&gt; 298.683
+                            [pressure] =&gt; 1022.32
+                            [sea_level] =&gt; 1029.84
+                            [grnd_level] =&gt; 1022.32
+                            [humidity] =&gt; 47
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 802
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; scattered clouds
+                                    [icon] =&gt; 03d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 32
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.41
+                            [deg] =&gt; 190.5
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 15:00:00
+                )
+
+            [7] =&gt; Array
+                (
+                    [dt] =&gt; 1497463200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 298.014
+                            [temp_min] =&gt; 298.014
+                            [temp_max] =&gt; 298.014
+                            [pressure] =&gt; 1021.4
+                            [sea_level] =&gt; 1028.83
+                            [grnd_level] =&gt; 1021.4
+                            [humidity] =&gt; 42
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 12
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.17
+                            [deg] =&gt; 188.5
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 18:00:00
+                )
+
+            [8] =&gt; Array
+                (
+                    [dt] =&gt; 1497474000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 294.06
+                            [temp_min] =&gt; 294.06
+                            [temp_max] =&gt; 294.06
+                            [pressure] =&gt; 1021.03
+                            [sea_level] =&gt; 1028.59
+                            [grnd_level] =&gt; 1021.03
+                            [humidity] =&gt; 47
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 24
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.61
+                            [deg] =&gt; 168.503
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-14 21:00:00
+                )
+
+            [9] =&gt; Array
+                (
+                    [dt] =&gt; 1497484800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 290.713
+                            [temp_min] =&gt; 290.713
+                            [temp_max] =&gt; 290.713
+                            [pressure] =&gt; 1020.14
+                            [sea_level] =&gt; 1027.59
+                            [grnd_level] =&gt; 1020.14
+                            [humidity] =&gt; 57
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 20
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.52
+                            [deg] =&gt; 131
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 00:00:00
+                )
+
+            [10] =&gt; Array
+                (
+                    [dt] =&gt; 1497495600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 288.171
+                            [temp_min] =&gt; 288.171
+                            [temp_max] =&gt; 288.171
+                            [pressure] =&gt; 1018.4
+                            [sea_level] =&gt; 1025.9
+                            [grnd_level] =&gt; 1018.4
+                            [humidity] =&gt; 72
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 24
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.11
+                            [deg] =&gt; 122.005
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 03:00:00
+                )
+
+            [11] =&gt; Array
+                (
+                    [dt] =&gt; 1497506400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 291.048
+                            [temp_min] =&gt; 291.048
+                            [temp_max] =&gt; 291.048
+                            [pressure] =&gt; 1017.27
+                            [sea_level] =&gt; 1024.79
+                            [grnd_level] =&gt; 1017.27
+                            [humidity] =&gt; 65
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 804
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; overcast clouds
+                                    [icon] =&gt; 04d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 88
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.22
+                            [deg] =&gt; 152.003
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 06:00:00
+                )
+
+            [12] =&gt; Array
+                (
+                    [dt] =&gt; 1497517200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 296.332
+                            [temp_min] =&gt; 296.332
+                            [temp_max] =&gt; 296.332
+                            [pressure] =&gt; 1016.73
+                            [sea_level] =&gt; 1024.11
+                            [grnd_level] =&gt; 1016.73
+                            [humidity] =&gt; 58
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.2
+                            [deg] =&gt; 263.001
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 09:00:00
+                )
+
+            [13] =&gt; Array
+                (
+                    [dt] =&gt; 1497528000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 296.97
+                            [temp_min] =&gt; 296.97
+                            [temp_max] =&gt; 296.97
+                            [pressure] =&gt; 1016.57
+                            [sea_level] =&gt; 1023.99
+                            [grnd_level] =&gt; 1016.57
+                            [humidity] =&gt; 49
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 5.17
+                            [deg] =&gt; 265.004
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 12:00:00
+                )
+
+            [14] =&gt; Array
+                (
+                    [dt] =&gt; 1497538800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 297.503
+                            [temp_min] =&gt; 297.503
+                            [temp_max] =&gt; 297.503
+                            [pressure] =&gt; 1016.8
+                            [sea_level] =&gt; 1024.17
+                            [grnd_level] =&gt; 1016.8
+                            [humidity] =&gt; 48
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 803
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; broken clouds
+                                    [icon] =&gt; 04d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 64
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 7
+                            [deg] =&gt; 267.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 15:00:00
+                )
+
+            [15] =&gt; Array
+                (
+                    [dt] =&gt; 1497549600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 294.645
+                            [temp_min] =&gt; 294.645
+                            [temp_max] =&gt; 294.645
+                            [pressure] =&gt; 1018.07
+                            [sea_level] =&gt; 1025.56
+                            [grnd_level] =&gt; 1018.07
+                            [humidity] =&gt; 40
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 6.71
+                            [deg] =&gt; 276.503
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 18:00:00
+                )
+
+            [16] =&gt; Array
+                (
+                    [dt] =&gt; 1497560400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 290.837
+                            [temp_min] =&gt; 290.837
+                            [temp_max] =&gt; 290.837
+                            [pressure] =&gt; 1020.66
+                            [sea_level] =&gt; 1028.13
+                            [grnd_level] =&gt; 1020.66
+                            [humidity] =&gt; 42
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 6.15
+                            [deg] =&gt; 272.003
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-15 21:00:00
+                )
+
+            [17] =&gt; Array
+                (
+                    [dt] =&gt; 1497571200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 288.275
+                            [temp_min] =&gt; 288.275
+                            [temp_max] =&gt; 288.275
+                            [pressure] =&gt; 1022.71
+                            [sea_level] =&gt; 1030.2
+                            [grnd_level] =&gt; 1022.71
+                            [humidity] =&gt; 60
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 20
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 5.42
+                            [deg] =&gt; 276.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 00:00:00
+                )
+
+            [18] =&gt; Array
+                (
+                    [dt] =&gt; 1497582000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 287.085
+                            [temp_min] =&gt; 287.085
+                            [temp_max] =&gt; 287.085
+                            [pressure] =&gt; 1024.12
+                            [sea_level] =&gt; 1031.67
+                            [grnd_level] =&gt; 1024.12
+                            [humidity] =&gt; 69
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 8
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.66
+                            [deg] =&gt; 277.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 03:00:00
+                )
+
+            [19] =&gt; Array
+                (
+                    [dt] =&gt; 1497592800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 288.383
+                            [temp_min] =&gt; 288.383
+                            [temp_max] =&gt; 288.383
+                            [pressure] =&gt; 1025.96
+                            [sea_level] =&gt; 1033.42
+                            [grnd_level] =&gt; 1025.96
+                            [humidity] =&gt; 62
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.76
+                            [deg] =&gt; 283.004
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 06:00:00
+                )
+
+            [20] =&gt; Array
+                (
+                    [dt] =&gt; 1497603600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 291.516
+                            [temp_min] =&gt; 291.516
+                            [temp_max] =&gt; 291.516
+                            [pressure] =&gt; 1027.15
+                            [sea_level] =&gt; 1034.6
+                            [grnd_level] =&gt; 1027.15
+                            [humidity] =&gt; 55
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 5.02
+                            [deg] =&gt; 289.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 09:00:00
+                )
+
+            [21] =&gt; Array
+                (
+                    [dt] =&gt; 1497614400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 294.752
+                            [temp_min] =&gt; 294.752
+                            [temp_max] =&gt; 294.752
+                            [pressure] =&gt; 1027.75
+                            [sea_level] =&gt; 1035.33
+                            [grnd_level] =&gt; 1027.75
+                            [humidity] =&gt; 48
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 5
+                            [deg] =&gt; 288.5
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 12:00:00
+                )
+
+            [22] =&gt; Array
+                (
+                    [dt] =&gt; 1497625200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 297.302
+                            [temp_min] =&gt; 297.302
+                            [temp_max] =&gt; 297.302
+                            [pressure] =&gt; 1027.97
+                            [sea_level] =&gt; 1035.38
+                            [grnd_level] =&gt; 1027.97
+                            [humidity] =&gt; 43
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.97
+                            [deg] =&gt; 291.02
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 15:00:00
+                )
+
+            [23] =&gt; Array
+                (
+                    [dt] =&gt; 1497636000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 297.776
+                            [temp_min] =&gt; 297.776
+                            [temp_max] =&gt; 297.776
+                            [pressure] =&gt; 1027.84
+                            [sea_level] =&gt; 1035.35
+                            [grnd_level] =&gt; 1027.84
+                            [humidity] =&gt; 44
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.58
+                            [deg] =&gt; 291.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 18:00:00
+                )
+
+            [24] =&gt; Array
+                (
+                    [dt] =&gt; 1497646800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 295.51
+                            [temp_min] =&gt; 295.51
+                            [temp_max] =&gt; 295.51
+                            [pressure] =&gt; 1028.79
+                            [sea_level] =&gt; 1036.37
+                            [grnd_level] =&gt; 1028.79
+                            [humidity] =&gt; 51
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 801
+                                    [main] =&gt; Clouds
+                                    [description] =&gt; few clouds
+                                    [icon] =&gt; 02n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 12
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.65
+                            [deg] =&gt; 286.002
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-16 21:00:00
+                )
+
+            [25] =&gt; Array
+                (
+                    [dt] =&gt; 1497657600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 292.793
+                            [temp_min] =&gt; 292.793
+                            [temp_max] =&gt; 292.793
+                            [pressure] =&gt; 1029.84
+                            [sea_level] =&gt; 1037.32
+                            [grnd_level] =&gt; 1029.84
+                            [humidity] =&gt; 62
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.91
+                            [deg] =&gt; 272.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 00:00:00
+                )
+
+            [26] =&gt; Array
+                (
+                    [dt] =&gt; 1497668400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 290.31
+                            [temp_min] =&gt; 290.31
+                            [temp_max] =&gt; 290.31
+                            [pressure] =&gt; 1029.92
+                            [sea_level] =&gt; 1037.46
+                            [grnd_level] =&gt; 1029.92
+                            [humidity] =&gt; 73
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.42
+                            [deg] =&gt; 275.004
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 03:00:00
+                )
+
+            [27] =&gt; Array
+                (
+                    [dt] =&gt; 1497679200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 290.493
+                            [temp_min] =&gt; 290.493
+                            [temp_max] =&gt; 290.493
+                            [pressure] =&gt; 1030.12
+                            [sea_level] =&gt; 1037.65
+                            [grnd_level] =&gt; 1030.12
+                            [humidity] =&gt; 76
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.26
+                            [deg] =&gt; 276.506
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 06:00:00
+                )
+
+            [28] =&gt; Array
+                (
+                    [dt] =&gt; 1497690000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 295.277
+                            [temp_min] =&gt; 295.277
+                            [temp_max] =&gt; 295.277
+                            [pressure] =&gt; 1029.97
+                            [sea_level] =&gt; 1037.51
+                            [grnd_level] =&gt; 1029.97
+                            [humidity] =&gt; 63
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.01
+                            [deg] =&gt; 269.004
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 09:00:00
+                )
+
+            [29] =&gt; Array
+                (
+                    [dt] =&gt; 1497700800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 298.801
+                            [temp_min] =&gt; 298.801
+                            [temp_max] =&gt; 298.801
+                            [pressure] =&gt; 1029.33
+                            [sea_level] =&gt; 1036.85
+                            [grnd_level] =&gt; 1029.33
+                            [humidity] =&gt; 53
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.11
+                            [deg] =&gt; 269.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 12:00:00
+                )
+
+            [30] =&gt; Array
+                (
+                    [dt] =&gt; 1497711600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 300.756
+                            [temp_min] =&gt; 300.756
+                            [temp_max] =&gt; 300.756
+                            [pressure] =&gt; 1028.22
+                            [sea_level] =&gt; 1035.75
+                            [grnd_level] =&gt; 1028.22
+                            [humidity] =&gt; 43
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 4.92
+                            [deg] =&gt; 274.006
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 15:00:00
+                )
+
+            [31] =&gt; Array
+                (
+                    [dt] =&gt; 1497722400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 300.171
+                            [temp_min] =&gt; 300.171
+                            [temp_max] =&gt; 300.171
+                            [pressure] =&gt; 1027.45
+                            [sea_level] =&gt; 1034.93
+                            [grnd_level] =&gt; 1027.45
+                            [humidity] =&gt; 40
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 5.11
+                            [deg] =&gt; 277
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 18:00:00
+                )
+
+            [32] =&gt; Array
+                (
+                    [dt] =&gt; 1497733200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 296.92
+                            [temp_min] =&gt; 296.92
+                            [temp_max] =&gt; 296.92
+                            [pressure] =&gt; 1028.11
+                            [sea_level] =&gt; 1035.57
+                            [grnd_level] =&gt; 1028.11
+                            [humidity] =&gt; 43
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.91
+                            [deg] =&gt; 278.508
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-17 21:00:00
+                )
+
+            [33] =&gt; Array
+                (
+                    [dt] =&gt; 1497744000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 293.672
+                            [temp_min] =&gt; 293.672
+                            [temp_max] =&gt; 293.672
+                            [pressure] =&gt; 1028.62
+                            [sea_level] =&gt; 1036.18
+                            [grnd_level] =&gt; 1028.62
+                            [humidity] =&gt; 52
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 3.21
+                            [deg] =&gt; 282.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 00:00:00
+                )
+
+            [34] =&gt; Array
+                (
+                    [dt] =&gt; 1497754800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 291.249
+                            [temp_min] =&gt; 291.249
+                            [temp_max] =&gt; 291.249
+                            [pressure] =&gt; 1028.61
+                            [sea_level] =&gt; 1036.16
+                            [grnd_level] =&gt; 1028.61
+                            [humidity] =&gt; 69
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01n
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.57
+                            [deg] =&gt; 302.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; n
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 03:00:00
+                )
+
+            [35] =&gt; Array
+                (
+                    [dt] =&gt; 1497765600
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 292.549
+                            [temp_min] =&gt; 292.549
+                            [temp_max] =&gt; 292.549
+                            [pressure] =&gt; 1029.24
+                            [sea_level] =&gt; 1036.71
+                            [grnd_level] =&gt; 1029.24
+                            [humidity] =&gt; 72
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.91
+                            [deg] =&gt; 325
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 06:00:00
+                )
+
+            [36] =&gt; Array
+                (
+                    [dt] =&gt; 1497776400
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 296.753
+                            [temp_min] =&gt; 296.753
+                            [temp_max] =&gt; 296.753
+                            [pressure] =&gt; 1029.23
+                            [sea_level] =&gt; 1036.66
+                            [grnd_level] =&gt; 1029.23
+                            [humidity] =&gt; 61
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.82
+                            [deg] =&gt; 327.001
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 09:00:00
+                )
+
+            [37] =&gt; Array
+                (
+                    [dt] =&gt; 1497787200
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 299.544
+                            [temp_min] =&gt; 299.544
+                            [temp_max] =&gt; 299.544
+                            [pressure] =&gt; 1028.51
+                            [sea_level] =&gt; 1035.93
+                            [grnd_level] =&gt; 1028.51
+                            [humidity] =&gt; 54
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.87
+                            [deg] =&gt; 303.501
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 12:00:00
+                )
+
+            [38] =&gt; Array
+                (
+                    [dt] =&gt; 1497798000
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 301.414
+                            [temp_min] =&gt; 301.414
+                            [temp_max] =&gt; 301.414
+                            [pressure] =&gt; 1027.41
+                            [sea_level] =&gt; 1034.78
+                            [grnd_level] =&gt; 1027.41
+                            [humidity] =&gt; 46
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 2.07
+                            [deg] =&gt; 305.502
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 15:00:00
+                )
+
+            [39] =&gt; Array
+                (
+                    [dt] =&gt; 1497808800
+                    [main] =&gt; Array
+                        (
+                            [temp] =&gt; 301.251
+                            [temp_min] =&gt; 301.251
+                            [temp_max] =&gt; 301.251
+                            [pressure] =&gt; 1026.54
+                            [sea_level] =&gt; 1034.01
+                            [grnd_level] =&gt; 1026.54
+                            [humidity] =&gt; 42
+                            [temp_kf] =&gt; 0
+                        )
+
+                    [weather] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [id] =&gt; 800
+                                    [main] =&gt; Clear
+                                    [description] =&gt; clear sky
+                                    [icon] =&gt; 01d
+                                )
+
+                        )
+
+                    [clouds] =&gt; Array
+                        (
+                            [all] =&gt; 0
+                        )
+
+                    [wind] =&gt; Array
+                        (
+                            [speed] =&gt; 1.97
+                            [deg] =&gt; 323.504
+                        )
+
+                    [sys] =&gt; Array
+                        (
+                            [pod] =&gt; d
+                        )
+
+                    [dt_txt] =&gt; 2017-06-18 18:00:00
+                )
+
+        )
+
+    [city] =&gt; Array
+        (
+            [id] =&gt; 2643743
+            [name] =&gt; London
+            [coord] =&gt; Array
+                (
+                    [lat] =&gt; 51.5085
+                    [lon] =&gt; -0.1258
+                )
+
+            [country] =&gt; GB
+        )
+
+)
+
+
+
+  
+
+  
+  
+
+     
