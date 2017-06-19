@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="js/bootstrap.min.js">
     <link rel="stylesheet" href="css/pagestyle.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Scada:400 &amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body onload="clock()">
    
     <header>  
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 title">
+                <div class="col-sm-3 title">
                     <h2>Weather<span>News</span></h2>
                 </div>
-                <div class="col-sm-6 time-date">
+                <div class="col-sm-4 search_tbox">
+                    <input type="text" class="text" placeholder="Введите название города">
+                </div>
+                <div class="col-sm-2 search">
+                   <button class="search_bt">Поиск</button>
+                </div>
+                <div class="col-sm-3 time-date">
                     <p id="timedate"></p>
                 </div>
             </div>
@@ -49,22 +53,27 @@
             <div class="row">            
                 <div class="col-sm-7 feedback_text">
                     <div class="feedbacktext"> 
-                        <h3>Ваше мнение - очень важно для нас!</h3>
                         <p>Если у вас есть какие то вопросы, вы нашли баг или хотите сказать "Какие вы молодцы", используйте для этого форму.</p>
-                        <p>Все поля являются обязательными. Особого внимания требует поле "Тема". Именно по этому полю мы определяем, что вы хотели донести до нас.</p>
-                        <p>Если темой письма является баг на сайте - ОБЯЗАТЕЛЬНО заполните поле "Email". В короткие сроки, наш сотрудник напишет вам для получения более подробной информации о дефекте.</p>     
+
+                        <div class="pic">
+                            <img id="arrow_right" src="img/arrow_right.png" alt="Стрелка вправо">
+                            <img id="arrow_down" src="img/arrow_down.png" alt="Стрелка вниз">
+                        </div>
+                        <p>Заполните все поля. Особого внимания требует поле "Тема". Именно по этому полю мы определяем, что вы хотели донести до нас.</p>
+                        <br/>
+                        <p>ВНИМАНИЕ! Если темой письма является баг на сайте - ожидайте ответа от нашего сотрудника для получения подробной информации о баге</p>     
                     </div>                
                 </div>
                 <div class="col-sm-5 text-center feedback_form">
                     <div class="feedbackform">
-                        <form action="php/submit.php" method="POST">
-                             <input name="name" id="feedback" required="required" type = "text" placeholder = "Имя">
+                        <form action="/submit.php" method="POST">
+                             <input name="name" id="feedback" type = "text" placeholder = "Имя">
                             <br/>
-                             <input name="email" id="feedback" required="required" type = "text", placeholder = "Email">
+                             <input name="email" id="feedback" type = "text", placeholder = "Email">
                               <br/>
-                              <input name="them" id="feedback" required="required" type = "text", placeholder = "Тема">
+                              <input name="them" id="feedback" type = "text", placeholder = "Тема">
                             <br/>
-                             <textarea name="message" id="message" cols="30" rows="10" required="required" placeholder="Введите текст сообщение..."  maxlength="300"></textarea>
+                             <input name="message" id="feedback_comment" type = "text", placeholder = "Текст сообщения...">
                             <br/>
                              <input id="feedback" type ="submit" value="Отправить" class ="send">                    
                         </form>
@@ -75,15 +84,11 @@
     </main>  
     
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-               <div class="footer">
-                    <div class="col-md-4">
-                        <h5>Все права принадлежат ©2017 Weather<span>News</span>.</h5> 
-                    </div>
-                    <div class="col-md-5"></div>
-                    <div class="col-md-3"></div>
-                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-3"></div>
             </div>
         </div>
     </footer>

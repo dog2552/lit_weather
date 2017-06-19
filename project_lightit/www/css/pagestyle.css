@@ -1,9 +1,21 @@
+html  {    
+            position:relative; /* относительное позиционнирование */
+            min-height:100%; /* минимальная высота */
+        }
+
+body
+{
+    background-color: #eaeaea;
+}
+/*============================Общие элементы===============================*/
+
 /*===========Шапка сайта====================*/
 .title
 {
-    font-family: Oswald;
+    font-family:  'Scada', sans-serif:700;
     font-size: 18px;
 }
+
     span
     {
         color: white;
@@ -19,14 +31,14 @@
     margin-top: 20px;
     height: 34px;
     width: 100%;
-    font-family: Oswald;
+    font-family:  'Scada', sans-serif;
     background-color: #393a3d;
     border: none;
     color: white;
 }
 .search_bt:hover
 {
-    background-color: cadetblue;
+    background-color: #0096d6;
     color: white;
     
       -webkit-transition: all 0.5s ease;;
@@ -36,13 +48,13 @@
 }
 .time-date
 {
-    font-family: Oswald;
-    font-size: 22px;
+    font-family:  'Scada', sans-serif;
+    font-size: 18px;
     text-align: right;
 }
 .time-date #timedate
 {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 0px;
 }
 
@@ -50,20 +62,17 @@ input.text
 {
     width: 100%;
     padding: 5px 10px;
-    font-family: Oswald Light;
+    font-family:  'Scada', sans-serif;
 }
 
 #timedate
 {
-    font-family: Oswald Light;
+    font-family:  'Scada', sans-serif;
 }
 
 /*===========Шапка сайта====================*/
 
-
-
-
-/*/===========Навигация по сайту============*/
+/*===========Навигация по сайту==============*/
 nav
 {
     background-color: #393a3d;
@@ -74,9 +83,9 @@ ul.list-inline a
     {
         background-color: #393a3d;
         display: inline-block;
-        font-family: Oswald;
+        font-family:  'Scada', sans-serif;
         text-transform: uppercase;
-        padding: 15px 40px;
+        padding: 15px 15px;
         color: #fff;
         font-size: 16px;
     }
@@ -89,53 +98,108 @@ ul.list-inline a:hover, a:focus, a:active /*Наведение на кнопку
 {
     text-decoration: none;
     color: whitesmoke;
-    background-color: #db0048;
+    background-color: #0096d6;
         
       -webkit-transition: all 0.5s ease;;
       -moz-transition: all 0.5s ease;;
       -o-transition: all 0.5s ease;;
       transition: all 0.5s ease;
 }
-/*===========Навигация по сайту============*/
+/*===========Навигация по сайту==============*/
 
+/*===========Подвал==============*/
+footer
+{
+    position:absolute;
+    bottom:0; 
+    left:0; 
+    background-color: #393a3d; 
+    color:#fff; 
+    width:100%; 
+}
+footer h3
+{
+    color: aliceblue;
+}
+/*===========Подвал==============*/
 
-
+/*============================Общие элементы===============================*/
 
 
 
 /*===========Главная страница MAIN.html*==============*/
 .present_weather
 {
-    border: 1px solid black;
-    height: 150px;
-    background-color: brown;
+    height: 100%;
     margin-top: 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
-.weather_list
+.prs_weather
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#weather_city_country
+{
+    color: black;
+    font-family:  'Scada', sans-serif;
+    font-size: 24px;
+}
+
+#weather_icon_temp
+{
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    font-size: 28px;
+    font-family:  'Scada', sans-serif;
+}
+
+#weather_main
+{
+    color: black;
+    font-family:  'Scada', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+table /*текст*/
 {
     margin-top: 15px;
+    color: black;
+    background-color: rgba(61, 150, 255, 0.5);
+    font-family:  'Scada', sans-serif;
+    padding-bottom: 150px;
+    
 }
+
 #map
 {
     height: 250px;
     width: 100%;
-    border: 1px solid black;
     margin-top: 15px;
 }
 
-footer
-{
-    background-color: #393a3d;
-    height: 52px;
-    position: fixed;
-    left: 0; bottom: 0; 
-    width: 100%; 
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:50px;
+display:none;
+text-indent:-9999px;
+background: url('../img/icon_top.png') no-repeat;
 }
-footer h3
-{
-    color: aliceblue;
-}
+
 /*===========Главная страница MAIN.html*==============*/
 
 
@@ -145,15 +209,28 @@ footer h3
 .about
 {
     width: 100%;
-    height: 350px;
+    height: 100%;
     margin-top: 15px;
+    text-align: justify;
+    padding: 15px 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.about h3
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 .about p
 {
     padding: 10px 10px;
-    font-family: Oswald;
+    font-family:  'Roboto', sans-serif;
     font-size: 18px;
+    margin: 0px;
 }
 
 .about span
@@ -167,42 +244,63 @@ footer h3
 
 
 /*===========Страница FEEDBACK.HTML==============*/
+.feedback_text
+{
+    margin-top: 15px;
+}
+
+.feedbacktext h3
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    margin: 0px;
+}
 .feedbacktext
 {
     height: 100%;
-    margin-top: 15px;
     width: 100%;
-    font-family: Oswald;
+    font-family:  'Roboto', sans-serif;
     font-size: 18px;
+    text-align: justify;
+    padding: 15px 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
 .feedbackform
 {
     margin-top: 15px;
+    padding: 15px 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
 #feedback {
     border: 1px solid #ccc;
     width: 100%;
     padding: 10px;
-    margin: 5px 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
-    font-family: Oswald;
+    font-family:  'Scada', sans-serif;
 }
-#feedback_comment{
+#message{
     border: 1px solid #ccc;
-    height: 150px;
+    height: 120px;
     width: 100%;
     padding: 10px;
-    margin: 5px 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
-    font-family: Oswald;
+    font-family:  'Scada', sans-serif;
+    resize: none;
 }
 .send {   
     width:100%;
     background-color: black;
     color: aliceblue;
-    font-family: Oswald;
+    font-family:  'Scada', sans-serif;
 }
 
 #arrow_right
@@ -228,6 +326,30 @@ footer h3
 
 
 /*===========MEDIA запросы==============*/
+@media (max-width:991px)
+{
+    .prs_weather
+    {
+        text-align: center;
+    }
+    .weatherblocks
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #arrow_right
+    {
+        display: none;
+    }
+    
+    #arrow_down
+    {
+        display: none;
+    }
+    
+}
+
 @media (max-width:767px)
 {
     #feedback
@@ -247,22 +369,26 @@ footer h3
     {
         display: none;
     }
-    
-    #arrow_right
+   
+    .search_tbox
     {
-        display: none;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
-    #arrow_down
+    .search
     {
-        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .aboutblock
+    {
+        padding-bottom: 60px;
+    }
+    
+    .feedback_form
+    {
+        padding-bottom: 50px;
     }
 }
-
-
-
-
-
-
-
-
