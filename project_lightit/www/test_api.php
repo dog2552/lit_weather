@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
 
 
 	function curl($url) {
@@ -30,31 +30,31 @@
 
                        echo "<tbody>";		 
 								echo "<tr>";
-									echo "<td>Скорость ветра</td>";
-									echo "<td>".$weatherArray->list[0]->wind->speed." м/с</td>";
+									echo "<td>РЎРєРѕСЂРѕСЃС‚СЊ РІРµС‚СЂР°</td>";
+									echo "<td>".$weatherArray->list[0]->wind->speed." Рј/СЃ</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Влажность</td>";
+									echo "<td>Р’Р»Р°Р¶РЅРѕСЃС‚СЊ</td>";
 									echo "<td>".$weatherArray->list[0]->main->humidity." %</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Атмосферное давление</td>";
-									echo "<td>".$weatherArray->list[0]->main->pressure*0.75. "мм рт. ст.</td>";
+									echo "<td>РђС‚РјРѕСЃС„РµСЂРЅРѕРµ РґР°РІР»РµРЅРёРµ</td>";
+									echo "<td>".$weatherArray->list[0]->main->pressure*0.75. "РјРј СЂС‚. СЃС‚.</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Описание</td>";
+									echo "<td>РћРїРёСЃР°РЅРёРµ</td>";
 									echo "<td>".$weatherArray->list[0]->weather[0]->description."</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Облачность</td>";
+									echo "<td>РћР±Р»Р°С‡РЅРѕСЃС‚СЊ</td>";
 									echo "<td>".$weatherArray->list[0]->clouds->all." %</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Температурный диапазон</td>";
-									echo "<td>От: ".$weatherArray->list[0]->main->temp_min."&deg;C "."До: ".$weatherArray->list[0]->main->temp_max."&deg;C</td>";
+									echo "<td>РўРµРјРїРµСЂР°С‚СѓСЂРЅС‹Р№ РґРёР°РїР°Р·РѕРЅ</td>";
+									echo "<td>РћС‚: ".$weatherArray->list[0]->main->temp_min."&deg;C "."Р”Рѕ: ".$weatherArray->list[0]->main->temp_max."&deg;C</td>";
 								echo "</tr>";
 								echo "<tr>";
-									echo "<td>Координаты</td>";
+									echo "<td>РљРѕРѕСЂРґРёРЅР°С‚С‹</td>";
 									echo "<td>"."[".$weatherArray->city->coord->lat.";".$weatherArray->city->coord->lon."]"."</td>";
 								echo "</tr>";								
                        echo "</tbody>";
@@ -63,10 +63,10 @@
 		
 		
 		
-        $weather1 = "Дата: ".$weatherArray->list[0]->dt_txt." Температура: ".$weatherArray->list[0]->main->temp."&deg;C<br/>"."От: ".$weatherArray->list[0]->main->temp_min."&deg;C "."До: ".$weatherArray->list[0]->main->temp_max."&deg;C<br/>".
-        "Скорость ветра: ".$weatherArray->list[0]->wind->speed."м/с "."Направление ветра: ".$weatherArray->list[0]->wind->deg."<br/>"."Описание: ".$weatherArray->list[0]->weather[0]->description."<img src='http://openweathermap.org/img/w/".
+        $weather1 = "Р”Р°С‚Р°: ".$weatherArray->list[0]->dt_txt." РўРµРјРїРµСЂР°С‚СѓСЂР°: ".$weatherArray->list[0]->main->temp."&deg;C<br/>"."РћС‚: ".$weatherArray->list[0]->main->temp_min."&deg;C "."Р”Рѕ: ".$weatherArray->list[0]->main->temp_max."&deg;C<br/>".
+        "РЎРєРѕСЂРѕСЃС‚СЊ РІРµС‚СЂР°: ".$weatherArray->list[0]->wind->speed."Рј/СЃ "."РќР°РїСЂР°РІР»РµРЅРёРµ РІРµС‚СЂР°: ".$weatherArray->list[0]->wind->deg."<br/>"."РћРїРёСЃР°РЅРёРµ: ".$weatherArray->list[0]->weather[0]->description."<img src='http://openweathermap.org/img/w/".
         $weatherArray->list[0]->weather[0]->icon.".png' alt='Icon depicting current weather.'><br/>".
-        "Атмосферное давление: ".$weatherArray->list[0]->main->pressure*0.75."мм рт. ст.<br/>"."Влажность: ".$weatherArray->list[0]->main->humidity."%";
+        "РђС‚РјРѕСЃС„РµСЂРЅРѕРµ РґР°РІР»РµРЅРёРµ: ".$weatherArray->list[0]->main->pressure*0.75."РјРј СЂС‚. СЃС‚.<br/>"."Р’Р»Р°Р¶РЅРѕСЃС‚СЊ: ".$weatherArray->list[0]->main->humidity."%";
 
       }
 

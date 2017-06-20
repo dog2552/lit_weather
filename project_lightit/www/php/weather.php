@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   include('php/config.php');
 
 	function curl($url) {

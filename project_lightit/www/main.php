@@ -1,4 +1,4 @@
-<?php include("php/start.php"); ?>
+﻿<?php include("php/start.php"); ?>
 <?php include("php/weather.php"); ?>
 
 <!DOCTYPE html>

@@ -1,8 +1,8 @@
-<?php
+Ôªø<?php
   $link=mysqli_connect('localhost', 'root', '', 'weathernews');
     if($link == false)
 	{
-		echo 'ÕÂ Û‰‡ÎÓÒ¸ ÔÓ‰ÍÎ˛˜ËÚ¸Òˇ Í ¡ƒ!<br/>';
+		echo '–ù–µ —É–¥–∞–ª–æ—Å—å –ø–æ–¥–∫–ª—é—á–∏—Ç—å—Å—è –∫ –ë–î!<br/>';
 		echo mysqli_connect_error();
 		exit();
 	}
